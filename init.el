@@ -17,6 +17,18 @@
 (use-package evil
   :ensure t)
 
+(use-package yasnippet
+  :ensure t)
+
+(use-package auto-complete
+  :ensure t)
+
+(use-package yaml-mode
+  :ensure t)
+
+(use-package ansible
+  :ensure t)
+
 (evil-mode 1)
 
 (custom-set-variables
